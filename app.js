@@ -22,5 +22,5 @@ app.use(studentRouter);
   }
 })()
 
-app.listen(3000, () => { console.log('API inicializada') })
+app.listen(process.env.PORT || 3000, () => { console.log('API inicializada') })
 
